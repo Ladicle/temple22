@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* ------------------------
+		INDEX STYLE
+		2011-11-30	v1.0
+------------------------- */
+
+article span{
+	margin-left:10px;
+}
+h2 span{
+	display:block;
+	margin-left:3.5em;
+	margin-top:-5.5px;
+}
+h2 span:first-letter{
+	color:#8e8516;
+	text-shadow: 0 0 1px rgba(0,0,0,.3);
+}
+#down{
+	margin-top:5.5em;
+}
+.imgs{
+	float:left;
+	width:100px;
+	height:100px;
+	overflow:hidden;
+	margin-bottom:3px;
+	margin-left:3px;
+	border:solid 5px #eee;
+	cursor:pointer;
+}
+#img1{
+	background:url(../img/01/01.jpg) top;
+}
+#img2{
+	background:url(../img/01/02.jpg) bottom;
+}
+#img3{
+	background:url(../img/01/03.jpg) center;
+}
+#img4{
+	background:url(../img/01/04.jpg) top;
+}
+#img5{
+	background:url(../img/01/05.jpg) bottom left;
+}
+#img6{
+	background:url(../img/01/06.jpg) center;
+}
+#img7{
+	background:url(../img/01/07.jpg);
+}
+#img8{
+	background:url(../img/01/08.jpg);
+}
+.clear2{
+	clear:both;
+	color:#f2f2ea;
+}
+#aaa{
+	margin-top:30px;
+}

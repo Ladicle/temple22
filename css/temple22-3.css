@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* ------------------------
+		INDEX STYLE
+		2011-11-30	v1.0
+------------------------- */
+
+#toctitle a {
+	height:32px;
+	color:#666;
+	padding-left:20px;
+}
+#toctitle li {
+	margin-bottom:4px;
+	letter-spacing: 0.2em;
+}
+#toctitle > ol { margin-top:10px; }
+ol ol {
+	display:none;
+	margin:5px 0 8px 20px;
+}
+#toctitle > ol span {
+	color:rgba(0, 0, 0,0);
+	background:#999;
+	margin-right:10px;
+	letter-spacing: 0em;
+}
+#toctitle a:hover { color:#000; }
+#toctitle {
+	background:url(../img/index/bbb.jpg) no-repeat bottom right;
+	height:380px;
+}
+#bubble {
+	position:absolute;
+	left:170px;
+	top:125px;
+	width:150px;
+	height:77px;
+	color:#f2f2ea;
+	background:url(../img/index/buble.jpg);
+	display:none;
+}
+#img1, #img3 {
+	margin:16px 12px 5px 10px;
+	float:left;
+}
+#img2 {
+	margin:15px 18px 0px 20px;
+	float:right;
+}
+#img3 {
+	margin-left:17px;
+	margin-right:18px;
+	margin-top:22px;
+}
+article dl {
+	margin-left:15px;
+	margin-top:10px;
+}
+article dd {
+	margin-bottom:7px;
+	color:#777;
+}
+#zyuyou, #sonota { margin-top:2em; }
+article h4 {
+	margin-left:8px;
+	margin-top:20px;
+}
+div#firstline { margin-top:0; }
+#nomal h2 {
+	color:#333;
+	font-size:2em;
+}
+#nomal h2:first-letter { color:#333; }
+address, #nomal ul, #gaibul, #nomal span { margin-left:10px; }
+#nomal ul li { margin-bottom:3px; }
+#nomal a { color:#5b8340; }

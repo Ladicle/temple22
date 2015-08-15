@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* ------------------------
+		INDEX STYLE
+		2011-11-30	v1.0
+------------------------- */
+article span{
+	margin-left:10px;
+}
+.imgs{
+	float:left;
+	width:100px;
+	height:100px;
+	overflow:hidden;
+	margin-bottom:3px;
+	margin-left:3px;
+	border:solid 5px #eee;
+	cursor:pointer;
+}
+#img1{
+	background:url(../img/02/01.jpg) top;
+}
+#img2{
+	background:url(../img/02/02.jpg) bottom;
+}
+#img3{
+	background:url(../img/02/03.jpg) center;
+}
+#img4{
+	background:url(../img/02/04.jpg) top;
+}
+#img5{
+	background:url(../img/02/05.jpg) bottom left;
+}
+#img6{
+	background:url(../img/02/06.jpg) center;
+}
+#img7{
+	background:url(../img/02/07.jpg);
+}
+#img8{
+	background:url(../img/02/08.jpg);
+}
+.clear2{
+	clear:both;
+	color:#f2f2ea;
+}
